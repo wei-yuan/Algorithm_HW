@@ -21,9 +21,11 @@ int main(){
 		}
 		
 		//Check if there is A[i] > 100000
-		if(flag == 1 || minus == n)
+		if(flag == 1 || minus == n){
+			printf("0 0 0");
 			break;
-
+		}		
+	    
 		/*Moving Sliding Window*/
 		for(int i=0;i<n;i++){
 			/*Summation*/	
