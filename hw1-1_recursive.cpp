@@ -11,7 +11,7 @@ int Find_Max_Crossing_Subarray(int A[], int low, int mid, int high, int *mlptr, 
 			left_sum  = sum;
 			*mlptr  = i; //left_low
 		}
-		sum = 0; //shouldn't exist, for test
+//		sum = 0; //shouldn't exist, for test
 	}
 
 	sum = 0;
@@ -23,7 +23,7 @@ int Find_Max_Crossing_Subarray(int A[], int low, int mid, int high, int *mlptr, 
 			right_sum  = sum;
 			*mhptr = j;   //right_high
 		}
-		sum = 0; //shouldn't exist, for test
+//		sum = 0; //shouldn't exist, for test
 	}
 	return (left_sum + right_sum);
 }
