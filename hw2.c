@@ -6,12 +6,12 @@ char clps[1000];
 char *clpsptr = &clps;
 	
 //Table
-int T[1001][1001] ={0}; //LCS Table
-int D[1001][1001] = {0}; //for saving direction
+int T[1001][1001] ={}; //LCS Table
+int D[1001][1001] = {}; //for saving direction
 
 //String
-char ori[1000] = {0};  //original string
-char rev[1000] = {0}; //reverse string
+char ori[1000] = {};  //original string
+char rev[1000] = {}; //reverse string
 
 void PRINT_LPS(int D[][1001], char ori[], int i, int j, int *cntptr, char *clpsptr){   
 	if(i== 0 || j==0){   
