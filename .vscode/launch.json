@@ -1,0 +1,32 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        { 
+            "name": "(gdb) Attach",
+            "type": "cppdbg",
+            "request": "attach",
+            "program": "/home/alex504//algo_HW/Algorithm_HW/hw6",
+            "processId": "${command:pickProcess}",
+            "MIMode": "gdb"
+        },
+        {
+            "name": "(gdb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "/home/alex504/algo_HW/Algorithm_HW/hw6",
+            "args": ["-g"],
+            "stopAtEntry": false,
+            "cwd": "/home/alex504/algo_HW/Algorithm_HW/",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}

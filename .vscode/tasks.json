@@ -1,0 +1,9 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "5.4.0",
+    "command": "gcc",
+    "isShellCommand": true,
+    "args": ["hw6_kruskal_ver1.c" , "-g"],
+    "showOutput": "always"
+}
